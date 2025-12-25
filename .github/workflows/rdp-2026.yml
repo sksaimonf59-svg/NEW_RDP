@@ -17,11 +17,11 @@ permissions:
 
 jobs:
   full:
-    runs-on: windows-2022
+    runs-on: macos-latest
     timeout-minutes: 360
 
     env:
-      RDP_USER: MANIK
+      RDP_USER: mtqmanik
       RDP_PASS: Manik2200@@
       MAIN_RUNTIME_MIN: 360
 
